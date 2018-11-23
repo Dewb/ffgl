@@ -1,0 +1,3 @@
+[submodule "source/plugins/UltraWhorld"]
+	path = source/plugins/UltraWhorld
+	url = https://github.com/Dewb/UltraWhorld

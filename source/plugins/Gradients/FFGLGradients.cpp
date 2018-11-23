@@ -1,5 +1,5 @@
-#include <FFGL.h>
-#include <FFGLLib.h>
+#include "FFGL.h"
+#include "FFGLLib.h"
 #include "FFGLGradients.h"
 
 #include "utilities.h"

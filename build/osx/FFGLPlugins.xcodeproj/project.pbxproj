@@ -13,6 +13,7 @@
 			buildPhases = (
 			);
 			dependencies = (
+				5B0DE47121A781CD00F51D94 /* PBXTargetDependency */,
 				602BD75320668C0A00D035F9 /* PBXTargetDependency */,
 				D6369DC21AAF109800B0CC43 /* PBXTargetDependency */,
 				DB4B64191FF8459E0069DA80 /* PBXTargetDependency */,
@@ -24,6 +25,31 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		5B0DE3EE21A7807D00F51D94 /* FFGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DB1A2A1B9054A9007E6883 /* FFGL.cpp */; };
+		5B0DE3EF21A7807D00F51D94 /* utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DB1A3D1B9054A9007E6883 /* utilities.cpp */; };
+		5B0DE3F021A7807D00F51D94 /* FFGLPluginInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DB1A311B9054A9007E6883 /* FFGLPluginInfo.cpp */; };
+		5B0DE3F121A7807D00F51D94 /* Fireworks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9F92E92201A1B8900527E48 /* Fireworks.cpp */; };
+		5B0DE3F221A7807D00F51D94 /* Plugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9F92E8D201A1B8900527E48 /* Plugin.cpp */; };
+		5B0DE3F321A7807D00F51D94 /* FFGLPluginInfoData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DB1A331B9054A9007E6883 /* FFGLPluginInfoData.cpp */; };
+		5B0DE3F421A7807D00F51D94 /* FFGLPluginManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DB1A341B9054A9007E6883 /* FFGLPluginManager.cpp */; };
+		5B0DE3F521A7807D00F51D94 /* FFGLPluginSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DB1A371B9054A9007E6883 /* FFGLPluginSDK.cpp */; };
+		5B0DE3F621A7807D00F51D94 /* FFGLShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DB1A391B9054A9007E6883 /* FFGLShader.cpp */; };
+		5B0DE3F721A7807D00F51D94 /* FFGLFBO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DB1A691B906185007E6883 /* FFGLFBO.cpp */; };
+		5B0DE40021A780D700F51D94 /* GDIShim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B0DE3FE21A780D700F51D94 /* GDIShim.cpp */; };
+		5B0DE40521A780E300F51D94 /* Win32Shim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B0DE40121A780E300F51D94 /* Win32Shim.cpp */; };
+		5B0DE40621A780E300F51D94 /* UltraWhorldFFGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B0DE40321A780E300F51D94 /* UltraWhorldFFGL.cpp */; };
+		5B0DE44C21A7810100F51D94 /* StdAfx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B0DE40821A780FE00F51D94 /* StdAfx.cpp */; };
+		5B0DE44D21A7810100F51D94 /* hls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B0DE40921A780FE00F51D94 /* hls.cpp */; };
+		5B0DE45621A7810100F51D94 /* BackBufGDI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B0DE41721A780FF00F51D94 /* BackBufGDI.cpp */; };
+		5B0DE45821A7810100F51D94 /* WhorldFF.whl in Resources */ = {isa = PBXBuildFile; fileRef = 5B0DE41B21A780FF00F51D94 /* WhorldFF.whl */; };
+		5B0DE45C21A7810100F51D94 /* NormVal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B0DE42021A780FF00F51D94 /* NormVal.cpp */; };
+		5B0DE45E21A7810100F51D94 /* DPoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B0DE42621A780FF00F51D94 /* DPoint.cpp */; };
+		5B0DE46221A7810100F51D94 /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5B0DE42A21A7810000F51D94 /* License.txt */; };
+		5B0DE46621A7810100F51D94 /* UltraWhorld.rc2 in Resources */ = {isa = PBXBuildFile; fileRef = 5B0DE43421A7810000F51D94 /* UltraWhorld.rc2 */; };
+		5B0DE46821A7810100F51D94 /* ParmInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B0DE43721A7810000F51D94 /* ParmInfo.cpp */; };
+		5B0DE46A21A7810100F51D94 /* Oscillator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B0DE43E21A7810100F51D94 /* Oscillator.cpp */; };
+		5B0DE47421A7850B00F51D94 /* MainFrm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B0DE47221A7850B00F51D94 /* MainFrm.cpp */; };
+		5B0DE47721A7860100F51D94 /* WhorldView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B0DE47521A7860100F51D94 /* WhorldView.cpp */; };
 		602BD75120668B5900D035F9 /* utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DB1A3D1B9054A9007E6883 /* utilities.cpp */; };
 		A9F92E9D201A1C1500527E48 /* FFGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DB1A2A1B9054A9007E6883 /* FFGL.cpp */; };
 		A9F92E9E201A1C1500527E48 /* FFGLPluginInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DB1A311B9054A9007E6883 /* FFGLPluginInfo.cpp */; };
@@ -60,6 +86,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5B0DE47021A781CD00F51D94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DA285930AEE5D640030A4DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B0DE3EB21A7807D00F51D94;
+			remoteInfo = UltraWhorld;
+		};
 		602BD75220668C0A00D035F9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2DA285930AEE5D640030A4DD /* Project object */;
@@ -96,6 +129,43 @@
 		2FD1224818853D700009EBA8 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
 		2FD1225318853FFB0009EBA8 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		2FD1226B188540470009EBA8 /* AddSubtract.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddSubtract.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B0DE3FC21A7807D00F51D94 /* UltraWhorld.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltraWhorld.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B0DE3FE21A780D700F51D94 /* GDIShim.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GDIShim.cpp; path = ../../../../source/plugins/UltraWhorld/ffgl/GDIShim.cpp; sourceTree = "<group>"; };
+		5B0DE3FF21A780D700F51D94 /* GDIShim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDIShim.h; path = ../../../../source/plugins/UltraWhorld/ffgl/GDIShim.h; sourceTree = "<group>"; };
+		5B0DE40121A780E300F51D94 /* Win32Shim.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Win32Shim.cpp; path = ../../../../source/plugins/UltraWhorld/ffgl/Win32Shim.cpp; sourceTree = "<group>"; };
+		5B0DE40221A780E300F51D94 /* Win32Shim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Win32Shim.h; path = ../../../../source/plugins/UltraWhorld/ffgl/Win32Shim.h; sourceTree = "<group>"; };
+		5B0DE40321A780E300F51D94 /* UltraWhorldFFGL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UltraWhorldFFGL.cpp; path = ../../../../source/plugins/UltraWhorld/ffgl/UltraWhorldFFGL.cpp; sourceTree = "<group>"; };
+		5B0DE40421A780E300F51D94 /* UltraWhorldFFGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UltraWhorldFFGL.h; path = ../../../../source/plugins/UltraWhorld/ffgl/UltraWhorldFFGL.h; sourceTree = "<group>"; };
+		5B0DE40721A780FE00F51D94 /* hls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hls.h; path = ../../../../source/plugins/UltraWhorld/src/hls.h; sourceTree = "<group>"; };
+		5B0DE40821A780FE00F51D94 /* StdAfx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StdAfx.cpp; path = ../../../../source/plugins/UltraWhorld/src/StdAfx.cpp; sourceTree = "<group>"; };
+		5B0DE40921A780FE00F51D94 /* hls.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = hls.cpp; path = ../../../../source/plugins/UltraWhorld/src/hls.cpp; sourceTree = "<group>"; };
+		5B0DE41121A780FE00F51D94 /* MasterDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasterDef.h; path = ../../../../source/plugins/UltraWhorld/src/MasterDef.h; sourceTree = "<group>"; };
+		5B0DE41421A780FF00F51D94 /* BackBufGDI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BackBufGDI.h; path = ../../../../source/plugins/UltraWhorld/src/BackBufGDI.h; sourceTree = "<group>"; };
+		5B0DE41721A780FF00F51D94 /* BackBufGDI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BackBufGDI.cpp; path = ../../../../source/plugins/UltraWhorld/src/BackBufGDI.cpp; sourceTree = "<group>"; };
+		5B0DE41A21A780FF00F51D94 /* Oscillator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Oscillator.h; path = ../../../../source/plugins/UltraWhorld/src/Oscillator.h; sourceTree = "<group>"; };
+		5B0DE41B21A780FF00F51D94 /* WhorldFF.whl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = WhorldFF.whl; path = ../../../../source/plugins/UltraWhorld/src/WhorldFF.whl; sourceTree = "<group>"; };
+		5B0DE41C21A780FF00F51D94 /* MainDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainDef.h; path = ../../../../source/plugins/UltraWhorld/src/MainDef.h; sourceTree = "<group>"; };
+		5B0DE42021A780FF00F51D94 /* NormVal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NormVal.cpp; path = ../../../../source/plugins/UltraWhorld/src/NormVal.cpp; sourceTree = "<group>"; };
+		5B0DE42121A780FF00F51D94 /* Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Version.h; path = ../../../../source/plugins/UltraWhorld/src/Version.h; sourceTree = "<group>"; };
+		5B0DE42221A780FF00F51D94 /* ParmInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParmInfo.h; path = ../../../../source/plugins/UltraWhorld/src/ParmInfo.h; sourceTree = "<group>"; };
+		5B0DE42421A780FF00F51D94 /* WObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WObject.h; path = ../../../../source/plugins/UltraWhorld/src/WObject.h; sourceTree = "<group>"; };
+		5B0DE42621A780FF00F51D94 /* DPoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DPoint.cpp; path = ../../../../source/plugins/UltraWhorld/src/DPoint.cpp; sourceTree = "<group>"; };
+		5B0DE42A21A7810000F51D94 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = License.txt; path = ../../../../source/plugins/UltraWhorld/src/License.txt; sourceTree = "<group>"; };
+		5B0DE42D21A7810000F51D94 /* resource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = resource.h; path = ../../../../source/plugins/UltraWhorld/src/resource.h; sourceTree = "<group>"; };
+		5B0DE43421A7810000F51D94 /* UltraWhorld.rc2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UltraWhorld.rc2; sourceTree = "<group>"; };
+		5B0DE43621A7810000F51D94 /* UltraWhorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UltraWhorld.h; path = ../../../../source/plugins/UltraWhorld/src/UltraWhorld.h; sourceTree = "<group>"; };
+		5B0DE43721A7810000F51D94 /* ParmInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ParmInfo.cpp; path = ../../../../source/plugins/UltraWhorld/src/ParmInfo.cpp; sourceTree = "<group>"; };
+		5B0DE43821A7810000F51D94 /* FFParmDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FFParmDef.h; path = ../../../../source/plugins/UltraWhorld/src/FFParmDef.h; sourceTree = "<group>"; };
+		5B0DE43E21A7810100F51D94 /* Oscillator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Oscillator.cpp; path = ../../../../source/plugins/UltraWhorld/src/Oscillator.cpp; sourceTree = "<group>"; };
+		5B0DE43F21A7810100F51D94 /* DPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DPoint.h; path = ../../../../source/plugins/UltraWhorld/src/DPoint.h; sourceTree = "<group>"; };
+		5B0DE44121A7810100F51D94 /* ParmDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParmDef.h; path = ../../../../source/plugins/UltraWhorld/src/ParmDef.h; sourceTree = "<group>"; };
+		5B0DE44221A7810100F51D94 /* StdAfx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StdAfx.h; path = ../../../../source/plugins/UltraWhorld/src/StdAfx.h; sourceTree = "<group>"; };
+		5B0DE44421A7810100F51D94 /* VideoList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoList.h; path = ../../../../source/plugins/UltraWhorld/src/VideoList.h; sourceTree = "<group>"; };
+		5B0DE44521A7810100F51D94 /* NormVal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NormVal.h; path = ../../../../source/plugins/UltraWhorld/src/NormVal.h; sourceTree = "<group>"; };
+		5B0DE47221A7850B00F51D94 /* MainFrm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MainFrm.cpp; path = ../../../../source/plugins/UltraWhorld/src/MainFrm.cpp; sourceTree = "<group>"; };
+		5B0DE47321A7850B00F51D94 /* MainFrm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainFrm.h; path = ../../../../source/plugins/UltraWhorld/src/MainFrm.h; sourceTree = "<group>"; };
+		5B0DE47521A7860100F51D94 /* WhorldView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WhorldView.cpp; path = ../../../../source/plugins/UltraWhorld/src/WhorldView.cpp; sourceTree = "<group>"; };
+		5B0DE47621A7860100F51D94 /* WhorldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WhorldView.h; path = ../../../../source/plugins/UltraWhorld/src/WhorldView.h; sourceTree = "<group>"; };
 		A9F28D5818B37D0C007D7C87 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A9F28D5A18B37D12007D7C87 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		A9F92E8C201A1B8900527E48 /* Plugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Plugin.h; path = ../../../source/plugins/Fireworks/Plugin.h; sourceTree = "<group>"; };
@@ -148,6 +218,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5B0DE3F821A7807D00F51D94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9F92EA5201A1C1500527E48 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -194,6 +271,7 @@
 				DB4B63F41FF845820069DA80 /* Add.bundle */,
 				DB4B64161FF845920069DA80 /* Gradients.bundle */,
 				A9F92EA9201A1C1500527E48 /* Fireworks.bundle */,
+				5B0DE3FC21A7807D00F51D94 /* UltraWhorld.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -204,6 +282,74 @@
 				D6DB1A481B9054CD007E6883 /* lib */,
 			);
 			name = source;
+			sourceTree = "<group>";
+		};
+		5B0DE3E821A7800E00F51D94 /* UltraWhorld */ = {
+			isa = PBXGroup;
+			children = (
+				5B0DE3E921A7804C00F51D94 /* ffgl */,
+				5B0DE3EA21A7805100F51D94 /* src */,
+			);
+			path = UltraWhorld;
+			sourceTree = "<group>";
+		};
+		5B0DE3E921A7804C00F51D94 /* ffgl */ = {
+			isa = PBXGroup;
+			children = (
+				5B0DE3FE21A780D700F51D94 /* GDIShim.cpp */,
+				5B0DE3FF21A780D700F51D94 /* GDIShim.h */,
+				5B0DE40321A780E300F51D94 /* UltraWhorldFFGL.cpp */,
+				5B0DE40421A780E300F51D94 /* UltraWhorldFFGL.h */,
+				5B0DE40121A780E300F51D94 /* Win32Shim.cpp */,
+				5B0DE40221A780E300F51D94 /* Win32Shim.h */,
+			);
+			path = ffgl;
+			sourceTree = "<group>";
+		};
+		5B0DE3EA21A7805100F51D94 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				5B0DE47221A7850B00F51D94 /* MainFrm.cpp */,
+				5B0DE47321A7850B00F51D94 /* MainFrm.h */,
+				5B0DE41721A780FF00F51D94 /* BackBufGDI.cpp */,
+				5B0DE41421A780FF00F51D94 /* BackBufGDI.h */,
+				5B0DE42621A780FF00F51D94 /* DPoint.cpp */,
+				5B0DE43F21A7810100F51D94 /* DPoint.h */,
+				5B0DE43821A7810000F51D94 /* FFParmDef.h */,
+				5B0DE40921A780FE00F51D94 /* hls.cpp */,
+				5B0DE40721A780FE00F51D94 /* hls.h */,
+				5B0DE42A21A7810000F51D94 /* License.txt */,
+				5B0DE41C21A780FF00F51D94 /* MainDef.h */,
+				5B0DE41121A780FE00F51D94 /* MasterDef.h */,
+				5B0DE42021A780FF00F51D94 /* NormVal.cpp */,
+				5B0DE44521A7810100F51D94 /* NormVal.h */,
+				5B0DE43E21A7810100F51D94 /* Oscillator.cpp */,
+				5B0DE41A21A780FF00F51D94 /* Oscillator.h */,
+				5B0DE44121A7810100F51D94 /* ParmDef.h */,
+				5B0DE43721A7810000F51D94 /* ParmInfo.cpp */,
+				5B0DE42221A780FF00F51D94 /* ParmInfo.h */,
+				5B0DE43321A7810000F51D94 /* res */,
+				5B0DE42D21A7810000F51D94 /* resource.h */,
+				5B0DE40821A780FE00F51D94 /* StdAfx.cpp */,
+				5B0DE44221A7810100F51D94 /* StdAfx.h */,
+				5B0DE43621A7810000F51D94 /* UltraWhorld.h */,
+				5B0DE42121A780FF00F51D94 /* Version.h */,
+				5B0DE44421A7810100F51D94 /* VideoList.h */,
+				5B0DE47521A7860100F51D94 /* WhorldView.cpp */,
+				5B0DE47621A7860100F51D94 /* WhorldView.h */,
+				5B0DE41B21A780FF00F51D94 /* WhorldFF.whl */,
+				5B0DE42421A780FF00F51D94 /* WObject.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		5B0DE43321A7810000F51D94 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				5B0DE43421A7810000F51D94 /* UltraWhorld.rc2 */,
+			);
+			name = res;
+			path = ../../../../source/plugins/UltraWhorld/src/res;
 			sourceTree = "<group>";
 		};
 		A91E037820173C1F0018E2D0 /* Gradients */ = {
@@ -352,6 +498,7 @@
 		E8D767450C9195D90089BAEB /* source plugins */ = {
 			isa = PBXGroup;
 			children = (
+				5B0DE3E821A7800E00F51D94 /* UltraWhorld */,
 				A9F92E8B201A1B6B00527E48 /* FireWorks */,
 				A91E037820173C1F0018E2D0 /* Gradients */,
 			);
@@ -376,6 +523,23 @@
 			name = AddSubtract;
 			productName = FFGLBrightness;
 			productReference = 2FD1226B188540470009EBA8 /* AddSubtract.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5B0DE3EB21A7807D00F51D94 /* UltraWhorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B0DE3F921A7807D00F51D94 /* Build configuration list for PBXNativeTarget "UltraWhorld" */;
+			buildPhases = (
+				5B0DE3EC21A7807D00F51D94 /* Resources */,
+				5B0DE3ED21A7807D00F51D94 /* Sources */,
+				5B0DE3F821A7807D00F51D94 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UltraWhorld;
+			productName = FFGLBrightness;
+			productReference = 5B0DE3FC21A7807D00F51D94 /* UltraWhorld.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		A9F92E9A201A1C1500527E48 /* Fireworks */ = {
@@ -457,6 +621,7 @@
 				2FD12258188540470009EBA8 /* AddSubtract */,
 				DB4B63E51FF845820069DA80 /* Add */,
 				A9F92E9A201A1C1500527E48 /* Fireworks */,
+				5B0DE3EB21A7807D00F51D94 /* UltraWhorld */,
 			);
 		};
 /* End PBXProject section */
@@ -466,6 +631,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B0DE3EC21A7807D00F51D94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B0DE45821A7810100F51D94 /* WhorldFF.whl in Resources */,
+				5B0DE46621A7810100F51D94 /* UltraWhorld.rc2 in Resources */,
+				5B0DE46221A7810100F51D94 /* License.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +680,35 @@
 				D6DB1A5C1B9054FE007E6883 /* FFGLShader.cpp in Sources */,
 				D69416C91B904EA200D30319 /* AddSubtract.cpp in Sources */,
 				D6DB1A6B1B906185007E6883 /* FFGLFBO.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B0DE3ED21A7807D00F51D94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B0DE45621A7810100F51D94 /* BackBufGDI.cpp in Sources */,
+				5B0DE3EE21A7807D00F51D94 /* FFGL.cpp in Sources */,
+				5B0DE3EF21A7807D00F51D94 /* utilities.cpp in Sources */,
+				5B0DE40021A780D700F51D94 /* GDIShim.cpp in Sources */,
+				5B0DE46A21A7810100F51D94 /* Oscillator.cpp in Sources */,
+				5B0DE44D21A7810100F51D94 /* hls.cpp in Sources */,
+				5B0DE3F021A7807D00F51D94 /* FFGLPluginInfo.cpp in Sources */,
+				5B0DE3F121A7807D00F51D94 /* Fireworks.cpp in Sources */,
+				5B0DE44C21A7810100F51D94 /* StdAfx.cpp in Sources */,
+				5B0DE45C21A7810100F51D94 /* NormVal.cpp in Sources */,
+				5B0DE3F221A7807D00F51D94 /* Plugin.cpp in Sources */,
+				5B0DE47421A7850B00F51D94 /* MainFrm.cpp in Sources */,
+				5B0DE40521A780E300F51D94 /* Win32Shim.cpp in Sources */,
+				5B0DE3F321A7807D00F51D94 /* FFGLPluginInfoData.cpp in Sources */,
+				5B0DE47721A7860100F51D94 /* WhorldView.cpp in Sources */,
+				5B0DE3F421A7807D00F51D94 /* FFGLPluginManager.cpp in Sources */,
+				5B0DE3F521A7807D00F51D94 /* FFGLPluginSDK.cpp in Sources */,
+				5B0DE45E21A7810100F51D94 /* DPoint.cpp in Sources */,
+				5B0DE46821A7810100F51D94 /* ParmInfo.cpp in Sources */,
+				5B0DE40621A780E300F51D94 /* UltraWhorldFFGL.cpp in Sources */,
+				5B0DE3F621A7807D00F51D94 /* FFGLShader.cpp in Sources */,
+				5B0DE3F721A7807D00F51D94 /* FFGLFBO.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,6 +761,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		5B0DE47121A781CD00F51D94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B0DE3EB21A7807D00F51D94 /* UltraWhorld */;
+			targetProxy = 5B0DE47021A781CD00F51D94 /* PBXContainerItemProxy */;
+		};
 		602BD75320668C0A00D035F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A9F92E9A201A1C1500527E48 /* Fireworks */;
@@ -584,6 +793,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D694169A1B90421F00D30319 /* FFGL_Debug.xcconfig */;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CONFIGURATION_BUILD_DIR = ../../binaries/debug;
 				COPY_PHASE_STRIP = NO;
@@ -595,6 +805,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D694169B1B90421F00D30319 /* FFGL_Release.xcconfig */;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CONFIGURATION_BUILD_DIR = ../../binaries/release;
 				COPY_PHASE_STRIP = YES;
@@ -639,6 +850,46 @@
 				INSTALL_PATH = "$(HOME)/Library/Bundles";
 				PREBINDING = NO;
 				PRODUCT_NAME = AddSubtract;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		5B0DE3FA21A7807D00F51D94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "FFGLPlugin-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PREBINDING = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		5B0DE3FB21A7807D00F51D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "FFGLPlugin-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PREBINDING = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = bundle;
 				ZERO_LINK = NO;
 			};
@@ -795,6 +1046,15 @@
 			buildConfigurations = (
 				2FD12269188540470009EBA8 /* Debug */,
 				2FD1226A188540470009EBA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B0DE3F921A7807D00F51D94 /* Build configuration list for PBXNativeTarget "UltraWhorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0DE3FA21A7807D00F51D94 /* Debug */,
+				5B0DE3FB21A7807D00F51D94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

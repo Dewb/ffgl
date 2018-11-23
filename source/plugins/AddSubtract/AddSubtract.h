@@ -1,6 +1,6 @@
 #pragma once
 
-#include <FFGLShader.h>
+#include "FFGLShader.h"
 #include "FFGLPluginSDK.h"
 #include <string>
 

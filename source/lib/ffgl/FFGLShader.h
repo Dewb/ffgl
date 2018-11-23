@@ -1,7 +1,7 @@
 #ifndef FFGLShader_H
 #define FFGLShader_H
 
-#include <FFGL.h>
+#include "FFGL.h"
 #include <string>
 
 class FFGLShader

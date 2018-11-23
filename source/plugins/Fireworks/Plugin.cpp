@@ -1,6 +1,6 @@
 #include "Plugin.h"
-#include <FFGL.h>
-#include <FFGLLib.h>
+#include "FFGL.h"
+#include "FFGLLib.h"
 #include "../../lib/ffgl/utilities/utilities.h"
 #include "particleImg.h"
 

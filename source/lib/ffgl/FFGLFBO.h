@@ -1,7 +1,7 @@
 #ifndef FFGLFBO_H
 #define FFGLFBO_H
 
-#include <FFGL.h>
+#include "FFGL.h"
 
 
 class FFGLFBO
