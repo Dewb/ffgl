@@ -50,6 +50,7 @@
 		5B0DE46A21A7810100F51D94 /* Oscillator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B0DE43E21A7810100F51D94 /* Oscillator.cpp */; };
 		5B0DE47421A7850B00F51D94 /* MainFrm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B0DE47221A7850B00F51D94 /* MainFrm.cpp */; };
 		5B0DE47721A7860100F51D94 /* WhorldView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B0DE47521A7860100F51D94 /* WhorldView.cpp */; };
+		5B0DE49421A7DF9000F51D94 /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B0DE48F21A7DCC600F51D94 /* nanovg.c */; };
 		602BD75120668B5900D035F9 /* utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DB1A3D1B9054A9007E6883 /* utilities.cpp */; };
 		A9F92E9D201A1C1500527E48 /* FFGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DB1A2A1B9054A9007E6883 /* FFGL.cpp */; };
 		A9F92E9E201A1C1500527E48 /* FFGLPluginInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DB1A311B9054A9007E6883 /* FFGLPluginInfo.cpp */; };
@@ -166,6 +167,13 @@
 		5B0DE47321A7850B00F51D94 /* MainFrm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainFrm.h; path = ../../../../source/plugins/UltraWhorld/src/MainFrm.h; sourceTree = "<group>"; };
 		5B0DE47521A7860100F51D94 /* WhorldView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WhorldView.cpp; path = ../../../../source/plugins/UltraWhorld/src/WhorldView.cpp; sourceTree = "<group>"; };
 		5B0DE47621A7860100F51D94 /* WhorldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WhorldView.h; path = ../../../../source/plugins/UltraWhorld/src/WhorldView.h; sourceTree = "<group>"; };
+		5B0DE48C21A7DCC600F51D94 /* nanovg_gl_utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nanovg_gl_utils.h; path = ../../../../../source/plugins/UltraWhorld/ffgl/nanovg/nanovg_gl_utils.h; sourceTree = "<group>"; };
+		5B0DE48D21A7DCC600F51D94 /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stb_image.h; path = ../../../../../source/plugins/UltraWhorld/ffgl/nanovg/stb_image.h; sourceTree = "<group>"; };
+		5B0DE48E21A7DCC600F51D94 /* fontstash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fontstash.h; path = ../../../../../source/plugins/UltraWhorld/ffgl/nanovg/fontstash.h; sourceTree = "<group>"; };
+		5B0DE48F21A7DCC600F51D94 /* nanovg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = nanovg.c; path = ../../../../../source/plugins/UltraWhorld/ffgl/nanovg/nanovg.c; sourceTree = "<group>"; };
+		5B0DE49021A7DCC600F51D94 /* nanovg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nanovg.h; path = ../../../../../source/plugins/UltraWhorld/ffgl/nanovg/nanovg.h; sourceTree = "<group>"; };
+		5B0DE49121A7DCC600F51D94 /* stb_truetype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stb_truetype.h; path = ../../../../../source/plugins/UltraWhorld/ffgl/nanovg/stb_truetype.h; sourceTree = "<group>"; };
+		5B0DE49221A7DCC600F51D94 /* nanovg_gl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nanovg_gl.h; path = ../../../../../source/plugins/UltraWhorld/ffgl/nanovg/nanovg_gl.h; sourceTree = "<group>"; };
 		A9F28D5818B37D0C007D7C87 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A9F28D5A18B37D12007D7C87 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		A9F92E8C201A1B8900527E48 /* Plugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Plugin.h; path = ../../../source/plugins/Fireworks/Plugin.h; sourceTree = "<group>"; };
@@ -296,6 +304,7 @@
 		5B0DE3E921A7804C00F51D94 /* ffgl */ = {
 			isa = PBXGroup;
 			children = (
+				5B0DE48B21A7DCB000F51D94 /* nanovg */,
 				5B0DE3FE21A780D700F51D94 /* GDIShim.cpp */,
 				5B0DE3FF21A780D700F51D94 /* GDIShim.h */,
 				5B0DE40321A780E300F51D94 /* UltraWhorldFFGL.cpp */,
@@ -350,6 +359,20 @@
 			);
 			name = res;
 			path = ../../../../source/plugins/UltraWhorld/src/res;
+			sourceTree = "<group>";
+		};
+		5B0DE48B21A7DCB000F51D94 /* nanovg */ = {
+			isa = PBXGroup;
+			children = (
+				5B0DE48E21A7DCC600F51D94 /* fontstash.h */,
+				5B0DE48C21A7DCC600F51D94 /* nanovg_gl_utils.h */,
+				5B0DE49221A7DCC600F51D94 /* nanovg_gl.h */,
+				5B0DE48F21A7DCC600F51D94 /* nanovg.c */,
+				5B0DE49021A7DCC600F51D94 /* nanovg.h */,
+				5B0DE48D21A7DCC600F51D94 /* stb_image.h */,
+				5B0DE49121A7DCC600F51D94 /* stb_truetype.h */,
+			);
+			path = nanovg;
 			sourceTree = "<group>";
 		};
 		A91E037820173C1F0018E2D0 /* Gradients */ = {
@@ -701,6 +724,7 @@
 				5B0DE47421A7850B00F51D94 /* MainFrm.cpp in Sources */,
 				5B0DE40521A780E300F51D94 /* Win32Shim.cpp in Sources */,
 				5B0DE3F321A7807D00F51D94 /* FFGLPluginInfoData.cpp in Sources */,
+				5B0DE49421A7DF9000F51D94 /* nanovg.c in Sources */,
 				5B0DE47721A7860100F51D94 /* WhorldView.cpp in Sources */,
 				5B0DE3F421A7807D00F51D94 /* FFGLPluginManager.cpp in Sources */,
 				5B0DE3F521A7807D00F51D94 /* FFGLPluginSDK.cpp in Sources */,
