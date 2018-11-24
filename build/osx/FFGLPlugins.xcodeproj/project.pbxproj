@@ -13,6 +13,7 @@
 			buildPhases = (
 			);
 			dependencies = (
+				5BAB62D221A9B41E002BE3C5 /* PBXTargetDependency */,
 				5B0DE47121A781CD00F51D94 /* PBXTargetDependency */,
 				602BD75320668C0A00D035F9 /* PBXTargetDependency */,
 				D6369DC21AAF109800B0CC43 /* PBXTargetDependency */,
@@ -51,6 +52,15 @@
 		5B0DE47421A7850B00F51D94 /* MainFrm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B0DE47221A7850B00F51D94 /* MainFrm.cpp */; };
 		5B0DE47721A7860100F51D94 /* WhorldView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B0DE47521A7860100F51D94 /* WhorldView.cpp */; };
 		5B0DE49421A7DF9000F51D94 /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B0DE48F21A7DCC600F51D94 /* nanovg.c */; };
+		5BAB62BF21A9AD56002BE3C5 /* FFGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DB1A2A1B9054A9007E6883 /* FFGL.cpp */; };
+		5BAB62C021A9AD56002BE3C5 /* FFGLPluginInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DB1A311B9054A9007E6883 /* FFGLPluginInfo.cpp */; };
+		5BAB62C121A9AD56002BE3C5 /* FFGLPluginInfoData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DB1A331B9054A9007E6883 /* FFGLPluginInfoData.cpp */; };
+		5BAB62C221A9AD56002BE3C5 /* FFGLPluginManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DB1A341B9054A9007E6883 /* FFGLPluginManager.cpp */; };
+		5BAB62C321A9AD56002BE3C5 /* FFGLPluginSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DB1A371B9054A9007E6883 /* FFGLPluginSDK.cpp */; };
+		5BAB62C421A9AD56002BE3C5 /* FFGLShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DB1A391B9054A9007E6883 /* FFGLShader.cpp */; };
+		5BAB62C621A9AD56002BE3C5 /* FFGLFBO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DB1A691B906185007E6883 /* FFGLFBO.cpp */; };
+		5BAB62D021A9ADD6002BE3C5 /* Teleidoscope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BAB62CF21A9ADD6002BE3C5 /* Teleidoscope.cpp */; };
+		5BAB62D321A9B4DC002BE3C5 /* utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DB1A3D1B9054A9007E6883 /* utilities.cpp */; };
 		602BD75120668B5900D035F9 /* utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DB1A3D1B9054A9007E6883 /* utilities.cpp */; };
 		A9F92E9D201A1C1500527E48 /* FFGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DB1A2A1B9054A9007E6883 /* FFGL.cpp */; };
 		A9F92E9E201A1C1500527E48 /* FFGLPluginInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6DB1A311B9054A9007E6883 /* FFGLPluginInfo.cpp */; };
@@ -93,6 +103,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 5B0DE3EB21A7807D00F51D94;
 			remoteInfo = UltraWhorld;
+		};
+		5BAB62D121A9B41E002BE3C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DA285930AEE5D640030A4DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BAB62BC21A9AD56002BE3C5;
+			remoteInfo = Teleidoscope;
 		};
 		602BD75220668C0A00D035F9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -174,6 +191,9 @@
 		5B0DE49021A7DCC600F51D94 /* nanovg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nanovg.h; path = ../../../../../source/plugins/UltraWhorld/ffgl/nanovg/nanovg.h; sourceTree = "<group>"; };
 		5B0DE49121A7DCC600F51D94 /* stb_truetype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stb_truetype.h; path = ../../../../../source/plugins/UltraWhorld/ffgl/nanovg/stb_truetype.h; sourceTree = "<group>"; };
 		5B0DE49221A7DCC600F51D94 /* nanovg_gl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = nanovg_gl.h; path = ../../../../../source/plugins/UltraWhorld/ffgl/nanovg/nanovg_gl.h; sourceTree = "<group>"; };
+		5BAB62CB21A9AD56002BE3C5 /* Teleidoscope.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Teleidoscope.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BAB62CE21A9ADAB002BE3C5 /* Teleidoscope.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Teleidoscope.h; sourceTree = "<group>"; };
+		5BAB62CF21A9ADD6002BE3C5 /* Teleidoscope.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Teleidoscope.cpp; sourceTree = "<group>"; };
 		A9F28D5818B37D0C007D7C87 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A9F28D5A18B37D12007D7C87 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		A9F92E8C201A1B8900527E48 /* Plugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Plugin.h; path = ../../../source/plugins/Fireworks/Plugin.h; sourceTree = "<group>"; };
@@ -233,6 +253,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5BAB62C721A9AD56002BE3C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9F92EA5201A1C1500527E48 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -280,6 +307,7 @@
 				DB4B64161FF845920069DA80 /* Gradients.bundle */,
 				A9F92EA9201A1C1500527E48 /* Fireworks.bundle */,
 				5B0DE3FC21A7807D00F51D94 /* UltraWhorld.bundle */,
+				5BAB62CB21A9AD56002BE3C5 /* Teleidoscope.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -298,7 +326,8 @@
 				5B0DE3E921A7804C00F51D94 /* ffgl */,
 				5B0DE3EA21A7805100F51D94 /* src */,
 			);
-			path = UltraWhorld;
+			name = UltraWhorld;
+			path = ../../source/plugins/UltraWhorld;
 			sourceTree = "<group>";
 		};
 		5B0DE3E921A7804C00F51D94 /* ffgl */ = {
@@ -373,6 +402,16 @@
 				5B0DE49121A7DCC600F51D94 /* stb_truetype.h */,
 			);
 			path = nanovg;
+			sourceTree = "<group>";
+		};
+		5BAB62CD21A9AD86002BE3C5 /* Teleidoscope */ = {
+			isa = PBXGroup;
+			children = (
+				5BAB62CE21A9ADAB002BE3C5 /* Teleidoscope.h */,
+				5BAB62CF21A9ADD6002BE3C5 /* Teleidoscope.cpp */,
+			);
+			name = Teleidoscope;
+			path = ../../source/plugins/Teleidoscope;
 			sourceTree = "<group>";
 		};
 		A91E037820173C1F0018E2D0 /* Gradients */ = {
@@ -505,6 +544,7 @@
 		E8D165D30C5E174D0035D796 /* effect plugins */ = {
 			isa = PBXGroup;
 			children = (
+				5BAB62CD21A9AD86002BE3C5 /* Teleidoscope */,
 				D69416A01B90436100D30319 /* AddSubtract */,
 			);
 			name = "effect plugins";
@@ -563,6 +603,23 @@
 			name = UltraWhorld;
 			productName = FFGLBrightness;
 			productReference = 5B0DE3FC21A7807D00F51D94 /* UltraWhorld.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5BAB62BC21A9AD56002BE3C5 /* Teleidoscope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BAB62C821A9AD56002BE3C5 /* Build configuration list for PBXNativeTarget "Teleidoscope" */;
+			buildPhases = (
+				5BAB62BD21A9AD56002BE3C5 /* Resources */,
+				5BAB62BE21A9AD56002BE3C5 /* Sources */,
+				5BAB62C721A9AD56002BE3C5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Teleidoscope;
+			productName = FFGLBrightness;
+			productReference = 5BAB62CB21A9AD56002BE3C5 /* Teleidoscope.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		A9F92E9A201A1C1500527E48 /* Fireworks */ = {
@@ -645,6 +702,7 @@
 				DB4B63E51FF845820069DA80 /* Add */,
 				A9F92E9A201A1C1500527E48 /* Fireworks */,
 				5B0DE3EB21A7807D00F51D94 /* UltraWhorld */,
+				5BAB62BC21A9AD56002BE3C5 /* Teleidoscope */,
 			);
 		};
 /* End PBXProject section */
@@ -664,6 +722,13 @@
 				5B0DE45821A7810100F51D94 /* WhorldFF.whl in Resources */,
 				5B0DE46621A7810100F51D94 /* UltraWhorld.rc2 in Resources */,
 				5B0DE46221A7810100F51D94 /* License.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BAB62BD21A9AD56002BE3C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -736,6 +801,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5BAB62BE21A9AD56002BE3C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BAB62D321A9B4DC002BE3C5 /* utilities.cpp in Sources */,
+				5BAB62BF21A9AD56002BE3C5 /* FFGL.cpp in Sources */,
+				5BAB62C021A9AD56002BE3C5 /* FFGLPluginInfo.cpp in Sources */,
+				5BAB62C121A9AD56002BE3C5 /* FFGLPluginInfoData.cpp in Sources */,
+				5BAB62D021A9ADD6002BE3C5 /* Teleidoscope.cpp in Sources */,
+				5BAB62C221A9AD56002BE3C5 /* FFGLPluginManager.cpp in Sources */,
+				5BAB62C321A9AD56002BE3C5 /* FFGLPluginSDK.cpp in Sources */,
+				5BAB62C421A9AD56002BE3C5 /* FFGLShader.cpp in Sources */,
+				5BAB62C621A9AD56002BE3C5 /* FFGLFBO.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9F92E9C201A1C1500527E48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -789,6 +870,11 @@
 			isa = PBXTargetDependency;
 			target = 5B0DE3EB21A7807D00F51D94 /* UltraWhorld */;
 			targetProxy = 5B0DE47021A781CD00F51D94 /* PBXContainerItemProxy */;
+		};
+		5BAB62D221A9B41E002BE3C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BAB62BC21A9AD56002BE3C5 /* Teleidoscope */;
+			targetProxy = 5BAB62D121A9B41E002BE3C5 /* PBXContainerItemProxy */;
 		};
 		602BD75320668C0A00D035F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -901,6 +987,46 @@
 			name = Debug;
 		};
 		5B0DE3FB21A7807D00F51D94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "FFGLPlugin-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PREBINDING = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		5BAB62C921A9AD56002BE3C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "FFGLPlugin-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PREBINDING = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		5BAB62CA21A9AD56002BE3C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1079,6 +1205,15 @@
 			buildConfigurations = (
 				5B0DE3FA21A7807D00F51D94 /* Debug */,
 				5B0DE3FB21A7807D00F51D94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BAB62C821A9AD56002BE3C5 /* Build configuration list for PBXNativeTarget "Teleidoscope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BAB62C921A9AD56002BE3C5 /* Debug */,
+				5BAB62CA21A9AD56002BE3C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
